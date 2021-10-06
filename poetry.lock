@@ -1,22 +1,4 @@
 [[package]]
-name = "cmdebug"
-version = "0.1"
-description = ""
-category = "main"
-optional = false
-python-versions = "*"
-develop = false
-
-[package.dependencies]
-lxml = "*"
-
-[package.source]
-type = "git"
-url = "https://github.com/bnahill/PyCortexMDebug.git"
-reference = "77e9717a0e7c5b44214bdf70fbddf376cf2e8a7d"
-resolved_reference = "77e9717a0e7c5b44214bdf70fbddf376cf2e8a7d"
-
-[[package]]
 name = "gdbundle"
 version = "0.0.4"
 description = "Plugin Manager for GDB and LLDB"
@@ -24,52 +6,13 @@ category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
-[[package]]
-name = "lxml"
-version = "4.4.0"
-description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.extras]
-cssselect = ["cssselect (>=0.7)"]
-html5 = ["html5lib"]
-htmlsoup = ["beautifulsoup4"]
-source = ["Cython (>=0.29.7)"]
-
 [metadata]
 lock-version = "1.1"
 python-versions = "*"
-content-hash = "dfb9465bb8fcf5a7da8d3b1ec85d87484c3abf0550fed3058994cb09ae6c620e"
+content-hash = "d7f43a7b97f205fdce1c8f4b24424c2229a29ab39a4079d6043c82a8e4f68f40"
 
 [metadata.files]
-cmdebug = []
 gdbundle = [
     {file = "gdbundle-0.0.4-py2.py3-none-any.whl", hash = "sha256:fa837c228ee87c5a564bba73ca79123d98d4c701d98d420d125e1803d77e14f3"},
     {file = "gdbundle-0.0.4.tar.gz", hash = "sha256:6151d9742ab311bee75f1764370108048ff25f950e472185f74195c0dfef8855"},
-]
-lxml = [
-    {file = "lxml-4.4.0-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:06e5599b9c54f797a3c0f384c67705a0d621031007aa2400a6c7d17300fdb995"},
-    {file = "lxml-4.4.0-cp27-cp27m-manylinux1_i686.whl", hash = "sha256:b33ec641309bcea40c76c1b105f988e4e8f9a2f1ee1486aa5c0eeef33956c9bb"},
-    {file = "lxml-4.4.0-cp27-cp27m-manylinux1_x86_64.whl", hash = "sha256:092237cfe4ece074401b75001a2e525fa6e1fb9d40fee8b7b132b1947d3bd2f8"},
-    {file = "lxml-4.4.0-cp27-cp27m-win32.whl", hash = "sha256:d1135dc0ac197242028ede085b693ba1f2bff7f0f9b91080e2540348312bfa53"},
-    {file = "lxml-4.4.0-cp27-cp27m-win_amd64.whl", hash = "sha256:350333190052bbfbc3222b1805b59b7979d7276e57af2257367e15a2db27082d"},
-    {file = "lxml-4.4.0-cp27-cp27mu-manylinux1_i686.whl", hash = "sha256:0b6d49d0a26fe8207df8dd27c40b75be4deb2277173903aa76ec3e82df77cbe7"},
-    {file = "lxml-4.4.0-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:db2794bad21b7b30b6849b4e1537171cae8a7087711d958d69c233470dc612e7"},
-    {file = "lxml-4.4.0-cp35-cp35m-manylinux1_i686.whl", hash = "sha256:2f163c8844db4ed06a230ef092e2461ad01830972a896b8f3cf8b5bac70ae85d"},
-    {file = "lxml-4.4.0-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:f1c2f67df727034f94ccb590142d1d110f3dd38f638a4f1567fdd9f39892ba05"},
-    {file = "lxml-4.4.0-cp35-cp35m-win32.whl", hash = "sha256:7720174604c7647e357566ac9e4d135c137caed5e7b01223551a4c81c8dc8b9a"},
-    {file = "lxml-4.4.0-cp35-cp35m-win_amd64.whl", hash = "sha256:0f77061c20b4f32b1cf39e8f661c74e966344084c996e7b23c3a94e472461df0"},
-    {file = "lxml-4.4.0-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:5033cf606a7cb559db967689b1b2e743994000f783607ba4c484e90917395ad7"},
-    {file = "lxml-4.4.0-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:75d731af05bf40f808d7716e0d26b4b02913402f861c032ce8c36efca350ae72"},
-    {file = "lxml-4.4.0-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:43dac60d10341d3e56be089cd0798b70e70d45ce32279f4c3190d8cbd71350e4"},
-    {file = "lxml-4.4.0-cp36-cp36m-win32.whl", hash = "sha256:4665ee84ac8ba11d58f1ed517e29ea8536b4ae4e0c6fb6c7d3dce70abcd279f0"},
-    {file = "lxml-4.4.0-cp36-cp36m-win_amd64.whl", hash = "sha256:da5c48ec9f8d8b5df42d328b6d1fb8d9413cd664a2367ef4f6f7cc48ee5b82c0"},
-    {file = "lxml-4.4.0-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:0fef86edfa2f146b4b0ae2c6c05c3e4a8f3388b3655eafbc4aab3247f4dabb24"},
-    {file = "lxml-4.4.0-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:f840dddded8b046edc774c88ed8d2442cdb231a68894c42c74e3a809450fae76"},
-    {file = "lxml-4.4.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:d5a61e9c2322b45f259909a02b76bc98c4641214e22a37191d00c151aa9cdb9a"},
-    {file = "lxml-4.4.0-cp37-cp37m-win32.whl", hash = "sha256:da22c4b17bc17dad9c8faf6d94c8fe568ac71c867a56631ab874da418fc7f8f7"},
-    {file = "lxml-4.4.0-cp37-cp37m-win_amd64.whl", hash = "sha256:3e86e5df4a8edd6f725f3c76f1d45e046d4f3aa40478092e4f5f373ad1f526e2"},
-    {file = "lxml-4.4.0.tar.gz", hash = "sha256:3b57dc5ed7b6a7d852c961f2389ca99404c2b59fd2088baec6fbaca02f688be4"},
 ]

@@ -1,0 +1,3 @@
+[submodule "gdbundle_pycortexmdebug/cmdebug"]
+	path = gdbundle_pycortexmdebug/cmdebug
+	url = ../../bnahill/PyCortexMDebug

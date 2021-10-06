@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gdbundle-pycortexmdebug"
-version = "0.0.3"
+version = "0.0.4"
 description = "gdbundle wrapper for PyCortexMDebug"
 authors = ["Tyler Hoffman <tyler@memfault.com>"]
 classifiers = [
@@ -23,9 +23,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "*"
-# Unfortunately PyCortexMDebug doesn't do any proper releases to PyPi,
-# so pin it to a git revision
-cmdebug = {git = "https://github.com/bnahill/PyCortexMDebug.git", rev = "77e9717a0e7c5b44214bdf70fbddf376cf2e8a7d"}
+# TODO if PyCortexMDebug is deployed to PyPi, update to include this dependency
+# cmdebug = "*"
 gdbundle = "~0.0.3"
 
 [build-system]
