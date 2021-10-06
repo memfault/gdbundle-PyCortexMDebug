@@ -1,3 +1,9 @@
+[![GitHub](https://img.shields.io/badge/GitHub-memfault/gdbundle--pycortexmdebug-8da0cb?style=for-the-badge&logo=github)](https://github.com/memfault/gdbundle-PyCortexMDebug)
+[![PyPI
+version](https://img.shields.io/pypi/v/gdbundle-pycortexmdebug.svg?style=for-the-badge)](https://pypi.org/project/gdbundle-pycortexmdebug/)
+[![PyPI
+pyversions](https://img.shields.io/pypi/pyversions/gdbundle-pycortexmdebug.svg?style=for-the-badge)](https://pypi.python.org/pypi/gdbundle-pycortexmdebug/)
+
 # gdbundle-PyCortexMDebug
 
 This is a [gdbundle](https://github.com/memfault/gdbundle) plugin for
